@@ -96,7 +96,7 @@ Ensure MongoDB Server Community and Composer is installed from above instruction
 
 Open the command line/cmd and change the directory/cd to "C:\Apache24\htdocs\test_1"
 
-Now run "composer require mongodb/mongodb" in cmd. This should install the MongoDB library for PHP
+Now run "composer install" in cmd. This should install the MongoDB composer dependency
 
 Enable the MongoDB extension in the php.ini file by searching for "extension" and adding the line "extension=php_mongodb.dll" just above the ";extension=mysqli" line
 
