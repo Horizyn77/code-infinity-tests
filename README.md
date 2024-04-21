@@ -90,7 +90,7 @@ Clone or download the repo to your machine
 
 Copy the folders "test_1" and "test_2" to the htdocs folder inside the Apache folder
 
-### 5. Setup MongoDB PHP Driver
+### 6. Setup MongoDB PHP Driver
 
 Ensure MongoDB Server Community and Composer is installed from above instructions
 
@@ -100,7 +100,7 @@ Now run "composer require mongodb/mongodb" in cmd. This should install the Mongo
 
 Enable the MongoDB extension in the php.ini file by searching for "extension" and adding the line "extension=php_mongodb.dll" just above the ";extension=mysqli" line
 
-### 6. Change File Upload maximum size in php.ini
+### 7. Change File Upload maximum size in php.ini
 
 Open php.ini in a text editor/notepad and search for "upload_max_filesize" and change the amount to "100M"
 
