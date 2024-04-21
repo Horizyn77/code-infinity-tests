@@ -70,9 +70,9 @@ Open the file httpd.conf in a text editor like Notepad
 
 Add this to the bottom of the file:
 
-\# PHP7 module
-PHPIniDir "C:/php"
-LoadModule php7_module "C:/php/php7apache2_4.dll"
+\# PHP7 module<br/>
+PHPIniDir "C:/php"<br/>
+LoadModule php7_module "C:/php/php7apache2_4.dll"<br/>
 AddType application/x-httpd-php .php
 
 Find this section in the file:
