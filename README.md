@@ -110,7 +110,7 @@ Search for "post_max_size" and change it also to "100M"
 
 Open the command line and change the directory using cd to C:\Apache24\bin
 
-Type httpd to run Apache
+Type "httpd" and hit enter to run Apache
 
 Open a browser such as Google Chrome and enter the web address to run the app
 
