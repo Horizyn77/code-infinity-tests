@@ -132,4 +132,5 @@ localhost/test_2/
 MongoDB Compass installed with MongoDB Server Community Edition can be used to view the MongoDB database for Test 1
 
 SQLite Viewer Web App can be used to view the sqlite database file in the test_2/database folder for Test 2
+<br/>
 Link: https://sqliteviewer.app/
