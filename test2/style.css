@@ -1,0 +1,88 @@
+.form-container  {
+    margin: 0 auto;
+    width: 65%;
+    margin-top: 50px;
+}
+
+.generate-page input {
+    width: 35% !important;
+    margin-left: 26px;
+}
+
+.input-section {
+    display: flex;
+    /* align-items: center; */
+}
+.flex-container {
+    display: flex;
+}
+
+.generate-page button {
+    margin-left: -70px;
+    margin-right: 16px;
+}
+
+span {
+    font-size: 18px;
+}
+
+.form-control {
+    display: inline !important;
+}
+
+.file-upload-page input {
+    width: 35%;
+    margin-right: 16px;
+}
+
+.file-upload-page label {
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+
+.file-upload-page button {
+    margin-top: 16px;
+    position: relative;
+    margin-right: 16px;
+}
+
+.file-upload-page p {
+    margin-top: 16px;
+    font-size: 20px;
+    color: #04aa6d;
+}
+
+.spinner {
+    width: 2rem;
+    height: 2rem;
+    border: 5px solid #f3f3f3;
+    border-top: 6px solid #00AB66;
+    border-radius: 100%;
+    margin: auto;
+    visibility: hidden;
+    animation: spin 1s infinite linear;
+    margin-top: 18px;
+  }
+
+.spinner.display {
+    visibility: visible;
+}
+
+.spinner-container {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+}
+
+.generate-spinner {
+    margin-top: 2px;
+}
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
