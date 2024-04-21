@@ -1,5 +1,6 @@
 # Installation guide and instructions for setting up the environment and running the app:
 <br />
+
 ## Download and install the following things
 
 ### PHP 7.4
