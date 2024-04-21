@@ -28,7 +28,7 @@ https://getcomposer.org/Composer-Setup.exe
 
 ### I found this guide very helpful in installing PHP/Apache on Windows 10 64bit
 
-https://www.sitepoint.com/how-to-install-php-on-windows/#step5configurephpasanapachemodule
+https://www.sitepoint.com/how-to-install-php-on-windows/
 
 ### 1. Setup Apache
 
