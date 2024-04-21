@@ -19,6 +19,7 @@ button:first-of-type {
 
 #success-msg {
     color: #04aa6d;
+    font-size: 18px;
 }
 
 #error-msg {
