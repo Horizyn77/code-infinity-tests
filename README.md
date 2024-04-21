@@ -20,6 +20,10 @@ https://aka.ms/vs/17/release/VC_redist.x64.exe
 
 https://www.mongodb.com/try/download/community
 
+### MongoDB PHP Extension for Windows
+
+https://github.com/mongodb/mongo-php-driver/releases/download/1.18.0/php_mongodb-1.18.0-7.4-nts-x64.zip
+
 ### Composer
 
 https://getcomposer.org/Composer-Setup.exe
@@ -94,11 +98,15 @@ Copy the folders "test_1" and "test_2" to the htdocs folder inside the Apache fo
 
 Ensure MongoDB Server Community and Composer is installed from above instructions
 
+Ensure the MongoDB PHP extension is downloaded from above instructions
+
+Extract the "php_mongodb.dll" from the MongoDB extension folder and copy to C:\php\ext
+
 Open the command line/cmd and change the directory/cd to "C:\Apache24\htdocs\test_1"
 
-Now run "composer install" in cmd. This should install the MongoDB composer dependency
-
 Enable the MongoDB extension in the php.ini file by searching for "extension" and adding the line "extension=php_mongodb.dll" just above the ";extension=mysqli" line
+
+Now run "composer install" in cmd. This should install the MongoDB composer dependency
 
 ### 7. Change File Upload maximum size in php.ini
 
