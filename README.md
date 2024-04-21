@@ -42,8 +42,7 @@ Create a "php" folder in the root of your C drive
 
 Extract the contents of the php zip into this folder
 
-Copy and rename "php.ini-development" from the php folder to the same folder and
-rename it to "php.ini"
+Copy and rename "php.ini-development" from the php folder to the same folder and rename it to "php.ini"
 
 Open the php.ini file in a text editor/notepad and search for "extension"
 
@@ -56,9 +55,7 @@ extension=sqlite3
 
 Click Windows Start and type "enviroment" and then click Edit the system environment variables.
 
-Click Enviroment Variables at the bottom. In the section below find the "Path
-
-variable and click on it and then click Edit. Click New on the next screen and type "C:\php" in the field
+Click Enviroment Variables at the bottom. In the section below find the "Path variable and click on it and then click Edit. Click New on the next screen and type "C:\php" in the field
 
 Click OK
 
@@ -101,8 +98,7 @@ Open the command line/cmd and change the directory/cd to "C:\Apache24\htdocs\tes
 
 Now run "composer require mongodb/mongodb" in cmd. This should install the MongoDB library for PHP
 
-Enable the MongoDB extension in the php.ini file by searching for "extension" and adding the line "extension=php_mongodb.dll" 
-just above the ";extension=mysqli" line
+Enable the MongoDB extension in the php.ini file by searching for "extension" and adding the line "extension=php_mongodb.dll" just above the ";extension=mysqli" line
 
 ### 6. Change File Upload maximum size in php.ini
 
