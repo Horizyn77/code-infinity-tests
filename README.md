@@ -1,6 +1,6 @@
 # Installation guide and instructions for setting up the environment and running the app:
 <br />
-## Download and install the following things:
+## Download and install the following things
 
 ### PHP 7.4
 https://windows.php.net/downloads/releases/archives/php-7.4.0-Win32-vc15-x64.zip
