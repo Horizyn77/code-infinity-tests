@@ -129,3 +129,7 @@ localhost/test_1/
 For Test 2:
 
 localhost/test_2/
+
+MongoDB Compass installed with MongoDB Server Community Edition can be used to view the MongoDB database for Test 1
+
+SQLite Viewer Web App [Link](https://sqliteviewer.app/) can be used to view the sqlite database file in test_2/database for Test 2
