@@ -200,14 +200,14 @@
             <?php
 
             if (isset($_GET['error'])) {
-                echo $_GET['error'];
+                echo "<span id='error-msg'>{$_GET['error']}<span>";
                 echo "<br>";
-            } elseif (isset($submitResultMsg)) {
-                echo $submitResultMsg;
+        } elseif (isset($submitResultMsg)) {
+                echo "<span id='success-msg'>{$submitResultMsg}<span>";
             }
 
             if (isset($idNumberDobMatchErr)) {
-                echo $idNumberDobMatchErr;
+                echo "<span id='error-msg'>{$idNumberDobMatchErr}<span>";
             }
 
             ?>

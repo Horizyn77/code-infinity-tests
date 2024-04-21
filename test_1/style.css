@@ -15,7 +15,14 @@ button:first-of-type {
 #submit-result-msg {
     font-family: var(--bs-body-font-family);
     margin-top: 10px;
+}
+
+#success-msg {
     color: #04aa6d;
+}
+
+#error-msg {
+    color: #dc3545;
 }
 
 #error-msg-name,
