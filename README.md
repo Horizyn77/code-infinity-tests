@@ -100,7 +100,7 @@ Ensure MongoDB Server Community and Composer is installed from above instruction
 
 Ensure the MongoDB PHP extension is downloaded from above instructions
 
-Extract the "php_mongodb.dll" from the MongoDB extension folder and copy to C:\php\ext
+Extract the "php_mongodb.dll" from the MongoDB extension file and copy to C:\php\ext
 
 Open the command line/cmd and change the directory/cd to "C:\Apache24\htdocs\test_1"
 
