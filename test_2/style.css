@@ -46,11 +46,18 @@ span {
     margin-right: 16px;
 }
 
-.file-upload-page p {
+.file-upload-page p:last-of-type {
+    margin-top: 16px;
+    font-size: 20px;
+    color: #007FFF;
+}
+
+.file-upload-page p:first-of-type {
     margin-top: 16px;
     font-size: 20px;
     color: #04aa6d;
 }
+
 
 .spinner {
     width: 2rem;

@@ -6,6 +6,10 @@ $csvFile = "./uploads/output.csv";
 
 $databaseFile = "./database/test_2.db";
 
+$rowCount;
+
+$test = array("1");
+
 if (file_exists($databaseFile)) {
     unlink($databaseFile);
 }
@@ -55,7 +59,10 @@ try {
 
             $db->commit();
 
-            echo "Table created and data imported successfully.";
+            $countStmt = $db->query('SELECT COUNT(*) FROM csv_import');
+
+            $rowCount = $countStmt->fetchColumn();
+
         } else {
             echo "Error: Unable to read the first row of the CSV file.";
         }
@@ -67,3 +74,9 @@ try {
 } catch (PDOException $e) {
     echo $e->getMessage();
 }
+
+$responseData = ['rowCount' => $rowCount];
+
+echo json_encode($responseData);
+
+?>

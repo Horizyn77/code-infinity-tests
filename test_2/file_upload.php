@@ -51,7 +51,6 @@
             <div class="spinner"></div>
         </div>
         <p><?php echo $uploadMsg ?></p>
-
     </div>
     <script src="main.js"></script>
 </body>
