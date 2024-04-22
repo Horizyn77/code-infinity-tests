@@ -30,7 +30,7 @@ async function importIntoDB() {
             p.innerText = "The data has been imported successfully";
             const data = await res.json();
             const p2 = document.createElement("p");
-            p2.innerText = `The number of records in the database is ${data.rowCount}`;
+            p2.innerText = `The number of records in the database is: ${data.rowCount}`;
             containerDiv.append(p2);
             clearTimeout(spinnerTimeout)
             spinner.classList.remove("display")
