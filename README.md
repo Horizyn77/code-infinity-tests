@@ -1,4 +1,4 @@
-# Installation guide and instructions for setting up the environment and running the app:
+# Installation guide and instructions for setting up the environment and running the app on Windows 10 64-bit:
 
 ## Download and install the following things
 
