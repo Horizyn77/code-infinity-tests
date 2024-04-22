@@ -6,7 +6,7 @@ const containerDiv = document.querySelector(".file-upload-page");
 
 const spinnerTimeout = setTimeout(() => {
     spinner.classList.remove("display")
-}, 30000)
+}, 35000)
 
 function startSpinner() {
     spinnerTimeout;
