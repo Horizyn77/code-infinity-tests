@@ -57,7 +57,13 @@ span {
     font-size: 20px;
     color: #04aa6d;
 }
+.file-upload-page h3 {
+    color: #f76b8a ;
+}
 
+.file-upload-page label {
+    color: #6C757D;
+}
 
 .spinner {
     width: 2rem;

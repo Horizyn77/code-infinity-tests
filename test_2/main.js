@@ -15,10 +15,6 @@ function startSpinner() {
     button.disabled = true;
 }
 
-function stopSpinner() {
-
-}
-
 async function importIntoDB() {
 
     try {
@@ -26,7 +22,6 @@ async function importIntoDB() {
         const res = await fetch("/test_2/import_data.php");
 
         if (res.ok) {
-            stopSpinner();
             p.innerText = "The data has been imported successfully";
             const data = await res.json();
             const p2 = document.createElement("p");

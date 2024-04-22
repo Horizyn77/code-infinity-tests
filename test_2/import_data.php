@@ -8,8 +8,6 @@ $databaseFile = "./database/test_2.db";
 
 $rowCount;
 
-$test = array("1");
-
 if (file_exists($databaseFile)) {
     unlink($databaseFile);
 }
